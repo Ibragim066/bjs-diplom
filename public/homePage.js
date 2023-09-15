@@ -52,7 +52,7 @@ moneyManager.addMoneyCallback = (data) => {
 
         moneyManager.setMessage(
             response.success,
-            response.error || 'Перевод выполнен успешно'
+            response.error || 'Баланс пополнен'
         );
     });
 };
@@ -66,7 +66,7 @@ moneyManager.conversionMoneyCallback = (data) => {
 
         moneyManager.setMessage(
             response.success,
-            response.error || 'Конвертация выполнена успешно'
+            response.error || 'Конвертация выполнена'
         );
     });
 };
@@ -80,7 +80,7 @@ moneyManager.sendMoneyCallback = (data) => {
 
         moneyManager.setMessage(
             response.success,
-            response.error || 'Перевод выполнен успешно'
+            response.error || 'Перевод выполнен'
         );
     });
 };
@@ -109,7 +109,7 @@ favoritesWidget.addUserCallback = (data) => {
 
         favoritesWidget.setMessage(
             response.success,
-            response.error || 'Добавление пользователя выполнено успешно'
+            response.error || 'Пользователь добавлен'
         )
     });
 };
@@ -126,7 +126,7 @@ favoritesWidget.removeUserCallback = (data) => {
 
         favoritesWidget.setMessage(
             response.success,
-            response.error || 'Удаление пользователя выполнено успешно'
+            response.error || 'Пользователь удален'
         );
     });
 };
