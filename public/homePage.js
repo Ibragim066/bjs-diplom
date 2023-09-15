@@ -80,7 +80,7 @@ moneyManager.sendMoneyCallback = (data) => {
 
         moneyManager.setMessage(
             response.success,
-            response.error || 'Конвертация выполнена успешно'
+            response.error || 'Перевод выполнен успешно'
         );
     });
 };
