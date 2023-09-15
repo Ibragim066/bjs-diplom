@@ -1,3 +1,5 @@
+'use strict';
+
 const logoutButton = new LogoutButton;
 const ratesBoard = new RatesBoard;
 const moneyManager = new MoneyManager;
